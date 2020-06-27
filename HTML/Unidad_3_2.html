@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> Principios Electricos </title>
+	<link rel="stylesheet" type="text/css" href="..\CSS\Style.css">
+</head>
+<body>
+	<header>
+		<div class=wrapp>
+			<img src="../MEDIA/IMGS/TecNacional.png" width="100" height="50">
+			<img src="../MEDIA/IMGS/TecSaltillo.jpg" width="50" height="50">
+			<nav>
+				<ul> 
+					<li><a href="Index.html"> Inicio </a></li>
+					<li><a href="Unidad_1.html"> Unidad 1 </a></li>
+					<li><a href="Unidad_2.html"> Unidad 2 </a></li>
+					<li><a href="Unidad_3.html"> Unidad 3 </a></li>
+					<li><a href="Unidad_4.html"> Unidad 4 </a></li>
+				</ul>
+			<nav>
+		</div>
+	</header>
+	<section class=main>
+		<div class=wrapp>
+			<div class=mensaje>
+				<h1> Unidad 3. </h1>
+			</div>
+				<div class=mensaje>
+					<h3> Electronica Digital. </h3>
+				</div>
+				<br>
+			<div class=articulo>
+				<article>
+				<h2>3.4.1 Resolucion de circuitos combinacionales. </h2>
+				<br>
+				<p> A continuacion les mostrare algunos videos (dar click en la palabra naranja) de las maneras en las que se pueden resolver los circuitos combinacionales.</p>
+				<br>
+				<a href="https://www.youtube.com/watch?v=WBuNE0da4ko">Funcion Logica: Tabla de verdad y Circuito Combinacional. </a>
+				<br>
+				<a href="https://www.youtube.com/watch?v=k5AJMOYiqfE&t=495s">Circuitos con compuertas logicas combinacionales.</a>
+				<br>
+				<a href="https://www.youtube.com/watch?v=l__Yn0RM0hk&t=576s">Circuitos con compuertas logicas combinacionales 2. </a>
+				<br>
+				<br>
+			<div class=mensaje>
+				<h2>3.5 Circuito Temporizador. </h2>
+			</div>
+				<p>Primero que nada.... ¿Que es un temporizador?</p>
+				<br>
+				<p>Un temporizador es un aparato con el que podemos regular la conexion o desconexion de un circuito electrico
+				despues de que se ha programado un tiempo. El elemento fundamental del temporizador es un contador binario,
+				encargado de medir los pulsos suministrados por algun circuito oscilador, con una base de tiempo estable y conocida.
+				El tiempo es determinado por una actividad o proceso que se necesite controlar. Se diferencia del rele, en que los 
+				contactos del temporizador no cambian de posicion instantaneamente. </p>
+				<br>
+				<p><h4>Circuito Temporizador (555) </h4></p>
+				<br> 
+				<p>El temporizador IC 555 es un circuito integrado (chip) que se utiliza en la generación de temporizadores, pulsos 
+				y oscilaciones. El 555 puede ser utilizado para proporcionar retardos de tiempo, como un oscilador, y como un circuito
+				integrado flip flop.</p>
+				<br>
+				<p>A continuacion se vera un video (dar click en la palabra naranja) de una practica con un circuito 555 temporizador </p>
+				<br>
+				<a href="https://www.youtube.com/watch?v=NolTdvGbnuU&t=226s"> Circuito555 </a>
+				<br>
+				<br>
+			<div class=mensaje>
+				<h2>3.6 Logica Secuencial. </h2>
+			</div>
+				<p>A diferencia de los sistemas combinacionales, en los sistemas secuenciales, los valores de las salidas, en un momento 
+				dado, no dependen exclusivamente de los valores de las entradas en dicho momento, sino también dependen del estado anterior 
+				o estado interno. El sistema secuencial más simple es el biestable, de los cuales, el de tipo D (o cerrojo) es el más 
+				utilizado actualmente.</p>
+				<br>
+				<p>El sistema secuencial requiere de la utilización de un dispositivo de memoria que pueda almacenar la historia pasada de 
+				sus entradas (denominadas variables de estado) y le permita mantener su estado durante algún tiempo, estos dispositivos de 
+				memoria pueden ser sencillos como un simple retardador o celdas de memoria de tipo DRAM, SRAM o multivibradores biestables 
+				también conocido como Flip-Flop entre otros.</p>
+				<br>
+				<h2>3.6.1 (Flip-Flop) Circuitos Secuenciales.</h2>
+				<br>
+				<p>En los Circuitos Secuenciales las salidas dependen de la conducta anterior del circuito, así como de los valores presentes 
+				en las entradas. Es decir la lógica secuencial tiene almacenaje (memoria)</p>
+				<br>
+				<p><h4>Flip-Flop</h4></p>
+				<br>
+				<p>Los biestables son el primer eslabón de componentes para la memorización de datos. Es un multivibrador capaz de permanecer 
+				en uno de dos estados posibles durante un tiempo indefinido en ausencia de perturbaciones.</p>
+				<br>
+				<p>El paso de un estado a otro se realiza variando sus entradas. Dependiendo del tipo de dichas entradas los biestables se dividen en:</p>
+				<br>
+				<ul>
+					<li>• Asíncronos: Sólo tienen entradas de control. El más empleado es el biestable RS.</li>
+					<li>• Síncronos: Además de las entradas de control posee una entrada de sincronismo o de reloj.</li>
+				</ul>
+				<br>
+				<br>
+				<h2>3.6.2 Flip-Flop RS, D, JK. </h2>
+				<br>
+				<p>Un biestable puede usarse para almacenar un bit. La información contenida en muchos biestables puede representar el estado de un 
+				secuenciador, el valor de un contador, un carácter ASCII en la memoria de un ordenador, o cualquier otra clase de información.</p>
+				<br>
+				<h3>RS (Reset/Set).</h3>
+				<br>
+				<p>Sólo posee las entradas R y S. Se compone internamente de dos puertas lógicas NAND o NOR.</p>
+				<br>
+				<p>A continuacion les pondre un video (dar click en la palabra naranja) que tienen una explicacion mejor sobre este Flip-Flop RS. </p>
+				<br>
+				<a href="https://www.youtube.com/watch?v=jHbiMWhGPzw&t=1s"> Flip-FlopRS </a>
+				<br>
+				<br>
+				<h3>D (Delay/Data).</h3>
+				<br>
+				<p>El flip-flop D resulta muy útil cuando se necesita almacenar un único bit de datos (1 o 0).</p>
+				<br>
+				<p>A continuacion les pondre un video (dar click en la palabra naranja) que tienen una explicacion 
+				mejor sobre este Flip-Flop D.</p>
+				<br>
+				<a href="https://www.youtube.com/watch?v=Gpliq_1qxh0"> Flip-FlopD </a>
+				<br>
+				<br>
+				<h3>JK. </h3>
+				<br>
+				<p>Es versátil y es uno de los tipos de flip-flop más usados. Su funcionamiento es idéntico al del flip-flop S-R en las condiciones SET, 
+				RESET y de permanencia de estado. La diferencia está en que el flip-flop J-K no tiene condiciones no válidas como ocurre en el S-R.</p>
+				<br>
+				<p>A continuacion les pondre un video que tienen una explicacion mejor sobre este Flip-Flop D.</p>
+				<br>
+				<a href="https://www.youtube.com/watch?v=F03CpUQ6ljo"> Flip-FlopJK </a>
+				<br>
+				<br>
+				<h2>3.6.5 Aplicaciones de los circuitos secuenciales.</h2>
+				<br>
+				<p>Los sistemas secuenciales constituyen un conjunto de circuitos muy habituales en la vida cotidiana. En cualquier componente que precise 
+				almacenar algún dato, se hace necesario un sistema secuencial</p>
+				<br>
+				<p>Cualquier elemento de programación que tenga que realizar más de una función, necesita un sistema secuencial.</p>
+				<br>
+				<p>Por ejemplo, una máquina expendedora de café, en ella iremos introduciendo monedas hasta alcanzar o sobrepasar el valor en que está 
+				tasado el tipo de café que deseamos extraer. Por lo tanto, en este sistema se tienen que almacenar una serie de datos:</p>
+				<br>
+				<ul>
+					<li>Los precios de los productos expendidos.</li>
+					<li>Estado de existencia de los mismos.</li>
+					<li>Cantidad de dinero introducido en la máquina hasta el momento.</li>
+				</ul>
+				<br>
+				<p>Como vemos que es preciso almacenar temporalmente una serie de datos, por lo que nos enfrentamos ante un sistema secuencial.</p>
+				<br>
+				<br>
+				<br>
+			<div align=left> 
+					<button type="button" onclick="window.location.href='../HTML/Unidad_3.html'"> Anterior </button>  
+			</div>
+			
+				</article>
+			</div>
+			
+			<aside>
+				<div class=widget>
+					<h2> Temario </h2>
+					<nav>
+					<ul>
+						<li><a href="Unidad_3.html">Unidad 3: Electronica Digital. </a></li>
+							<ul>
+								<li><a href="Unidad_3.html"> 3.1 Compuertas Logicas. </a></li>
+							</ul>
+								<ul>
+									<li><a href="Unidad_3.html"> 3.1.2 Compuerta AND. </a></li><br>
+									<li><a href="Unidad_3.html"> 3.1.3 Compuerta OR. </a></li><br>
+									<li><a href="Unidad_3.html"> 3.1.4 Compuerta NOT. </a></li><br>
+									<li><a href="Unidad_3.html"> 3.1.5 Compuerta NAND. </a></li><br>
+									<li><a href="Unidad_3.html"> 3.1.6 Compuerta NOR. </a></li>
+									<li><a href="Unidad_3.html"> 3.1.7 Compuerta XOR (OR exclusivo). </a></li>
+									<li><a href="Unidad_3.html"> 3.1.8 Teoremas y Postulados algebra de Boole. </a></li>
+								</ul>
+							<ul>
+								<li><a href="Unidad_3.html"> 3.2 Resolucion de circuitos. </a></li>
+							</ul>
+							<ul>
+								<li><a href="Unidad_3.html"> 3.3 Metodologia del diseño. </a></li>
+							</ul>
+							<ul>
+								<li><a href="Unidad_3.html"> 3.4 Circuitos Combinacionales. </a></li>
+							</ul>
+								<ul>
+									<li><a href="Unidad_3.html"> 3.4.1 Resolucion de circuitos combinacionales. </a></li>
+								</ul>
+							<ul>
+								<li><a href="Unidad_3.html"> 3.5 Circuitos Temporizadores. </a></li>
+							</ul>
+								<ul>
+									<li><a href="Unidad_3.html"> 3.5.1 Circuito (555). </a></li>
+								</ul>
+							<ul>
+								<li><a href="Unidad_3.html"> 3.6 Logica Secuencual. </a></li>
+							</ul>
+								<ul>
+									<li><a href="Unidad_3.html"> 3.6.1 (FLIP-FLOP) Circuitos Secuenciales. </a></li><br>
+									<li><a href="Unidad_3.html"> 3.6.2 FLIP-FLOP RS. </a></li><br>
+									<li><a href="Unidad_3.html"> 3.6.3 FLIP-FLOP D. </a></li><br>
+									<li><a href="Unidad_3.html"> 3.6.4 FLIP-FLOP JK. </a></li>
+									<li><a href="Unidad_3.html"> 3.6.5 Aplicación de los circuitos secuenciales. </a></li>
+								</ul>								
+				</aside>
+			</div>
+		</section>
+	
+</body>
+</html>
